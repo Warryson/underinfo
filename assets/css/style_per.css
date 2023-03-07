@@ -1,0 +1,89 @@
+@font-face { font-family: '8bitOperatorPlus-Bold'; src: url("/assets/fonts/8bitOperatorPlus-Bold.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/8bitOperatorPlus-Bold.woff") format("woff"), url("/assets/fonts/8bitOperatorPlus-Bold.ttf") format("truetype"), url("/assets/fonts/8bitOperatorPlus-Bold.svg#8bitOperatorPlus-Bold") format("svg"); font-weight: normal; font-style: normal; }
+@font-face { font-family: '7182-fontps'; src: url("/assets/fonts/7182-fontps.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/7182-fontps.oft") format("oft"), url("/assets/fonts/7182-fontps.ttf") format("truetype"), url("/assets/fonts/7182-fontps.svg#7182-fontps") format("svg"); font-weight: normal; font-style: normal; }
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: '8bitOperatorPlus-Bold';
+    color: white;
+}
+body{
+  background-color: black;
+  background-image: url(/assets/img/fundo_infos.png);
+}
+.fundo{
+    
+    
+    height: 98vh;
+    width: 98vw;
+    padding: 30px ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box_back{
+    background-color: black;
+    border: 5px solid white;
+    align-content: center;
+    
+    padding: 30px;
+    text-align: center ;
+    margin: 30px 30px 0px 30px;
+
+}
+.box{
+    background-color: black;
+    border: 5px solid white;
+    align-content: center;
+    
+    height: 600px;
+    margin: 30px;
+    padding: 10px;
+}
+.nome{
+    border-bottom: 5px solid white;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    float: right;
+    margin: 5px;
+}
+.infos{
+    border-right: 5px solid white;
+    padding: 20px;
+    width: 50%;
+    height: 75%;
+    float: left;
+    margin: 5px;
+}
+.perfils{
+    text-align: center;
+    
+}
+
+
+
+
+.start{
+     height: 80px;
+    width: 210px;  
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-image: url(/assets/img/voltar_no_selc.png);
+    background-position: center;
+    background-size: cover
+  }
+  .start:hover{
+    background-image: url(/assets/img/voltar_selc.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transform:scale(1.1);
+    transition: 0.4s;
+  
+  }
