@@ -48,7 +48,7 @@ b{
     color: yellow;
 }
 .inv{
-    width: 600px;
+    width: 95VW;
     height: 620px;
     border:solid 10px  white;
     padding: 40px 0px 0px 35px;
@@ -56,4 +56,5 @@ b{
     color: white;
     float:right;
     transition: 0.9s;
+    text-align:center;
 }
