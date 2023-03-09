@@ -21,9 +21,9 @@ body{
   
   
 .start{
-  height: 80px;
-  width: 220px;
-  margin: 23% auto 5% auto;
+  height: 11vh;
+  width: 14vw;
+  margin: 21% auto 5% auto;
   background-image: url(/assets/img/jogar_no_selc.png);
   background-position: center;
   background-size: cover
@@ -44,4 +44,9 @@ body{
   transform:scale(1.1);
   transition: 0.1s;
 
+}
+p{
+  font-size: 1vw;
+  font-size: 3vh;
+  
 }
