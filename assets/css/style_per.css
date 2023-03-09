@@ -69,8 +69,8 @@ body{
 
 
 .start{
-     height: 80px;
-    width: 210px;  
+    height: 11vh;
+  width: 14vw; 
     margin: 0 auto;
     margin-bottom: 10px;
     margin-top: 10px;
@@ -86,4 +86,9 @@ body{
     transform:scale(1.1);
     transition: 0.4s;
   
+  }
+  h2,p{
+    font-size: 1vw;
+
+    
   }

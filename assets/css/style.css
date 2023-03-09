@@ -11,15 +11,15 @@
     font-family: '8bitOperatorPlus-Bold';
 }
 body{
+  background-image: url(/assets/img/fundo_index.png);
   background-color: black;
+  background-size: 100%;
+  background-repeat: no-repeat;
   
 }
-.fundo{
-  background-image: url(/assets/img/fundo_index.png);
-  background-repeat: no-repeat;
-  width: 100vw;
-  height: 100vh;
-}
+
+  
+  
 .start{
   height: 80px;
   width: 220px;
